@@ -8,7 +8,7 @@ const Footer = () => {
       <Box
         sx={{
           display: "flex",
-          justifyContent: "space-evenly",
+          justifyContent: { xs: "center", md: "space-evenly" },
           flexDirection: { xs: "column", md: "row" },
           padding: "3em 0",
         }}
@@ -16,7 +16,7 @@ const Footer = () => {
         <Box sx={{ display: "flex", flexDirection: "row" }}>
           <Box>
             <Image
-              src="/footerLogo.png"
+              src="/RQxTq6Y.png"
               width={50}
               height={50}
               alt="footer-logo"

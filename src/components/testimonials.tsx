@@ -20,11 +20,12 @@ const Testimonials = () => {
         sx={{
           position: { xs: "absolute", md: "relative" },
           left: { xs: "85px", md: "250px" },
-          top: { xs: "3420px", md: "0px" },
+          top: { xs: "3190px", md: "0px" },
+
           cursor: "auto",
         }}
       >
-        <Image src="/leftArrow.png" width={45} height={20} alt={""}></Image>
+        <Image src="/SoHeBqa.png" width={45} height={20} alt={""}></Image>
       </Button>
       <Box
         sx={{
@@ -51,7 +52,7 @@ const Testimonials = () => {
         </Typography>
         <Box sx={{ marginBottom: "1em" }}>
           <Image
-            src="/Image2.png"
+            src="/BrJMgKQ.png"
             alt="valuesImg-desktop"
             width={80}
             height={80}
@@ -73,18 +74,18 @@ const Testimonials = () => {
             fontSize: { xs: "1.4rem", md: "1.4rem" },
           }}
         >
-          Dilli Moorthy - CEO Zoho
+          Sundar Raman - CEO - Zeyotech
         </Typography>
       </Box>
       <Button
         sx={{
           position: { xs: "absolute", md: "relative" },
           right: { xs: "85px", md: "250px" },
-          top: { xs: "3420px", md: "0px" },
+          top: { xs: "3190px", md: "0px" },
           cursor: "auto",
         }}
       >
-        <Image src="/rightArrow.png" width={45} height={20} alt={""}></Image>
+        <Image src="/ZLxRoSE.png" width={45} height={20} alt={""}></Image>
       </Button>
     </Box>
   );

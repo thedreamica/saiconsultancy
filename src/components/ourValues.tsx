@@ -47,7 +47,7 @@ const OurValues = () => {
           }}
         >
           <Image
-            src="/aboutUs.png"
+            src="/goBhDIq.png"
             alt="valuesImg-desktop"
             width={500}
             height={330}
@@ -64,7 +64,7 @@ const OurValues = () => {
           }}
         >
           <Image
-            src="/aboutUs.png"
+            src="/goBhDIq.png"
             alt="valuesImg-mobile"
             width={290}
             height={270}

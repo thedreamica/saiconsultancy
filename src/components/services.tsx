@@ -1,42 +1,6 @@
 import { Box, Typography } from "@mui/material";
-import styled from "styled-components";
-import { LightBulb } from "@styled-icons/heroicons-solid/LightBulb";
-
-const RedZap = styled(LightBulb)`
-  color: #0033ff;
-  height: 80px;
-  width: 80px;
-`;
-
-export const ServicesCard = () => {
-  return (
-    <Box
-      sx={{
-        display: "flex",
-        width: { xs: "288px", md: "300px" },
-        height: { xs: "85px", md: "85px" },
-        padding: "50px 10px",
-        marginBottom: { xs: "0", md: "2em" },
-        boxShadow: "0px 4px 4px 0px #00000040",
-        borderRadius: "none",
-      }}
-    >
-      <Box>
-        <RedZap />
-      </Box>
-      <Box sx={{ margin: { xs: "auto", md: "0.25em" } }}>
-        <Typography
-          sx={{ fontWeight: "700", paddingBottom: { xs: "0.5em", md: "1em" } }}
-        >
-          Placement
-        </Typography>
-        <Typography>
-          Assistance for connecting qualified candidates with top companies
-        </Typography>
-      </Box>
-    </Box>
-  );
-};
+import { servicesData } from "@/data/servicesData";
+import Image from "next/image";
 
 const Services = () => {
   return (
@@ -77,7 +41,7 @@ const Services = () => {
       <Box
         sx={{
           display: "flex",
-          flexDirection: { xs: "column", md: "row " },
+          flexDirection: { xs: "column", md: "row" },
           justifyContent: "center",
           alignItems: "center",
           flexWrap: "wrap",
@@ -85,15 +49,54 @@ const Services = () => {
           gap: { xs: "auto", md: "0.5em 2em" },
         }}
       >
-        <ServicesCard />
-        <ServicesCard />
-        <ServicesCard />
-        <ServicesCard />
-        <ServicesCard />
-        <ServicesCard />
-        <ServicesCard />
-        <ServicesCard />
-        <ServicesCard />
+        {servicesData.map((person) => (
+          <Box
+            key={person.id}
+            sx={{
+              display: "flex",
+              width: { xs: "290px", md: "305px" },
+              height: { xs: "115px", md: "150px" },
+              padding: "20px 10px",
+              marginBottom: { xs: "0", md: "2em" },
+              boxShadow: "0px 4px 4px 0px #00000040",
+            }}
+          >
+            <Box sx={{ display: { xs: "none", md: "block" } }}>
+              <Image
+                src={person.imageId}
+                width={70}
+                height={70}
+                alt={"icon-desktop"}
+              ></Image>
+            </Box>
+            <Box sx={{ display: { xs: "block", md: "none" } }}>
+              <Image
+                src={person.imageId}
+                width={50}
+                height={50}
+                alt={"icon - mobile"}
+              ></Image>
+            </Box>
+            <Box
+              sx={{
+                margin: {
+                  xs: "0.5em 0 0.25em 1em",
+                  md: "0.75em 0.25em 0.75em 0.75em",
+                },
+              }}
+            >
+              <Typography
+                sx={{
+                  fontWeight: "700",
+                  paddingBottom: { xs: "0.5em", md: "1em" },
+                }}
+              >
+                {person.title}
+              </Typography>
+              <Typography>{person.description}</Typography>
+            </Box>
+          </Box>
+        ))}
       </Box>
     </Box>
   );
