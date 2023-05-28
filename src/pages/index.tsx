@@ -8,6 +8,7 @@ import Testimonials from "@/components/testimonials";
 import ContactUs from "@/components/contact";
 import Footer from "@/components/footer";
 import OurApproach from "@/components/ourApproach";
+import HeroSection from "@/components/hero";
 // import HeroSection from "@/components/heroSection";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -25,10 +26,11 @@ export default function Home() {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <HeroSection />
       <OurValues />
       <Services />
       <Testimonials />
-      {/* <HeroSection /> */}
+
       {/* <OurApproach /> */}
       <ContactUs />
       <Footer />
