@@ -77,7 +77,7 @@ const HeroSection = () => {
                 >
                   <Image
                     src={image.imageId}
-                    width={320}
+                    width={375}
                     height={445}
                     alt="image"
                   ></Image>

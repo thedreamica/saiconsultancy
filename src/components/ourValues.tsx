@@ -20,7 +20,7 @@ const OurValues = () => {
         <Typography
           sx={{
             color: "#000000",
-            fontSize: { xs: "1rem", md: "2.25rem" },
+            fontSize: { xs: "1.5rem", md: "2.25rem" },
             fontWeight: "700",
             lineHeight: "1.25em",
             width: { xs: "100%", md: "50%" },

@@ -21,7 +21,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta
           name="keywords"
-          content="sai consultancy, consultancy, sai consultancy services"
+          content="sri sai consultancy, sai consultancy, saiconsultancy"
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
