@@ -17,12 +17,12 @@ const Services = () => {
     >
       <Box sx={{ marginLeft: { xs: "0.75em", md: "none" } }}>
         <Typography sx={{ fontSize: "0.9rem", marginBottom: "0.75em" }}>
-          OUR SERVICES
+          Our Services
         </Typography>
         <Typography
           sx={{
             color: "#000000",
-            fontSize: { xs: "1rem", md: "2.25rem" },
+            fontSize: { xs: "1.35rem", md: "2.25rem" },
             fontWeight: "700",
             lineHeight: "1.25em",
             width: { xs: "100%", md: "60%" },
@@ -54,8 +54,8 @@ const Services = () => {
             key={person.id}
             sx={{
               display: "flex",
-              width: { xs: "290px", md: "305px" },
-              height: { xs: "115px", md: "150px" },
+              width: { xs: "340px", md: "305px" },
+              height: { xs: "105px", md: "150px" },
               padding: "20px 10px",
               marginBottom: { xs: "0", md: "2em" },
               boxShadow: "0px 4px 4px 0px #00000040",
@@ -87,6 +87,7 @@ const Services = () => {
             >
               <Typography
                 sx={{
+                  fontSize: "1.25rem",
                   fontWeight: "700",
                   paddingBottom: { xs: "0.5em", md: "1em" },
                 }}

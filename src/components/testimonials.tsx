@@ -20,8 +20,7 @@ const Testimonials = () => {
         sx={{
           position: { xs: "absolute", md: "relative" },
           left: { xs: "85px", md: "250px" },
-          top: { xs: "3190px", md: "0px" },
-
+          top: { xs: "3660px", md: "0px" },
           cursor: "auto",
         }}
       >
@@ -81,7 +80,7 @@ const Testimonials = () => {
         sx={{
           position: { xs: "absolute", md: "relative" },
           right: { xs: "85px", md: "250px" },
-          top: { xs: "3190px", md: "0px" },
+          top: { xs: "3660px", md: "0px" },
           cursor: "auto",
         }}
       >

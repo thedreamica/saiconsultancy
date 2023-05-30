@@ -66,8 +66,8 @@ const OurValues = () => {
           <Image
             src="/goBhDIq.png"
             alt="valuesImg-mobile"
-            width={290}
-            height={270}
+            width={360}
+            height={360}
           />
         </Box>
 
