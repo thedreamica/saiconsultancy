@@ -4,7 +4,6 @@ import Image from "next/image";
 import Carousel from "react-material-ui-carousel";
 import { ArrowUpRight } from "@styled-icons/bootstrap/ArrowUpRight";
 import styled from "styled-components";
-import { relative } from "path";
 import NavigationBar from "./navigation";
 
 const RightArrow = styled(ArrowUpRight)`
@@ -50,8 +49,8 @@ const HeroSection = () => {
         }}
       >
         {carouselData.map((image, i) => (
-          <Box>
-            <Box key={i} sx={{ display: "flex", flexDirection: "row" }}>
+          <Box key={i}>
+            <Box sx={{ display: "flex", flexDirection: "row" }}>
               <Box sx={{ width: "50%", display: "flex", flexDirection: "row" }}>
                 <Box
                   sx={{

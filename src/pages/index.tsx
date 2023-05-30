@@ -7,7 +7,7 @@ import Testimonials from "@/components/testimonials";
 import ContactUs from "@/components/contact";
 import Footer from "@/components/footer";
 import HeroSection from "@/components/hero";
-import OurApproach from "@/components/ourApproach";
+// import OurApproach from "@/components/ourApproach";
 // import HeroSection from "@/components/heroSection";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -29,7 +29,7 @@ export default function Home() {
       <OurValues />
       <Services />
       <Testimonials />
-      <OurApproach />
+      {/* <OurApproach /> */}
       <ContactUs />
       <Footer />
     </>
