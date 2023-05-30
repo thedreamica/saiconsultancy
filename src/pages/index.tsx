@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
 import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 import OurValues from "@/components/ourValues";
@@ -7,8 +6,8 @@ import Services from "@/components/services";
 import Testimonials from "@/components/testimonials";
 import ContactUs from "@/components/contact";
 import Footer from "@/components/footer";
-import OurApproach from "@/components/ourApproach";
 import HeroSection from "@/components/hero";
+import OurApproach from "@/components/ourApproach";
 // import HeroSection from "@/components/heroSection";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -30,8 +29,7 @@ export default function Home() {
       <OurValues />
       <Services />
       <Testimonials />
-
-      {/* <OurApproach /> */}
+      <OurApproach />
       <ContactUs />
       <Footer />
     </>

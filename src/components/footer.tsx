@@ -1,10 +1,9 @@
 import { Box, Divider, Link, Typography } from "@mui/material";
 import Image from "next/image";
-import { LineHeight } from "styled-icons/remix-editor";
 
 const Footer = () => {
   return (
-    <Box>
+    <Box sx={{ background: "#FFFFFF" }}>
       <Box
         sx={{
           display: "flex",

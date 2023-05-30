@@ -1,59 +1,59 @@
 const approachData = [
   {
-    id: 1,
+    number: 1,
     title: "Discovery",
     description:
-      "We have a proven track record of success in helping businesses like yours achieve their goals and thrive in today's competitive marketplace.",
-    image: "/approachImg1.png",
+      "Conducting an initial consultation to understand clients' business challenges and objectives and gathering relevant information about clients' current processes, systems, and resources.",
+    imageId: "/vmvbvV9.png",
   },
   {
-    id: 2,
+    number: 2,
     title: "Analysis",
     description:
-      "We have a proven track record of success in helping businesses like yours achieve their goals and thrive in today's competitive marketplace.",
-    image: "/approachImg1.png",
+      "Conducting a thorough analysis of clients' business operations and performance and identifying opportunities for improvement and areas of inefficiency.",
+    imageId: "/7PQtLRj.png",
   },
   {
-    id: 3,
+    number: 3,
     title: "Strategy Development",
     description:
-      "Our team of experienced strategists specializes in marketing, recruitment, environment, and market entry strategy.",
-    image: "/approachImg1.png",
+      "Developing a comprehensive strategy and action plan that addresses clients' unique needs and goals and outlining specific recommendations and implementation steps.",
+    imageId: "/M7q7PNI.png",
   },
   {
-    id: 4,
+    number: 4,
     title: "Implementation Planning",
     description:
-      "We have a proven track record of success in helping businesses like yours achieve their goals and thrive in today's competitive marketplace.",
-    image: "/approachImg1.png",
+      "Developing a detailed implementation plan that outlines timelines, milestones, and resources required for success and providing guidance and support to clients throughout the planning process.",
+    imageId: "/M7q7PNI.png",
   },
   {
-    id: 5,
+    number: 5,
     title: "Execution",
     description:
-      "We have a proven track record of success in helping businesses like yours achieve their goals and thrive in today's competitive marketplace.",
-    image: "/approachImg1.png",
+      "Implementing the recommended changes and solutions and monitoring progress and making adjustments as necessary. ",
+    imageId: "/4TfSTjw.png",
   },
   {
-    id: 6,
+    number: 6,
     title: "Performance Management",
     description:
-      "Our team of experienced strategists specializes in marketing, recruitment, environment, and market entry strategy.",
-    image: "/approachImg1.png",
+      "Developing performance metrics and key performance indicators (KPIs) to monitor progress and success and providing ongoing support and guidance to ensure continued success.",
+    imageId: "/hvXkbu2.png",
   },
   {
-    id: 7,
+    number: 7,
     title: "Review",
     description:
-      "We have a proven track record of success in helping businesses like yours achieve their goals and thrive in today's competitive marketplace.",
-    image: "/approachImg1.png",
+      "Conducting regular reviews to evaluate the effectiveness of implemented solutions",
+    imageId: "/Uf5Y1TN.png",
   },
   {
-    id: 8,
+    number: 8,
     title: "Improvement",
     description:
-      "We have a proven track record of success in helping businesses like yours achieve their goals and thrive in today's competitive marketplace.",
-    image: "/approachImg1.png",
+      "Identifying areas for further improvement and making adjustments as necessary.",
+    imageId: "/bUJIAQt.png",
   },
 ];
 
