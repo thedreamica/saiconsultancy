@@ -8,11 +8,14 @@ const Footer = () => {
         sx={{
           display: "flex",
           justifyContent: { xs: "center", md: "space-evenly" },
+          alignItems: { xs: "center", md: "flex-start" },
           flexDirection: { xs: "column", md: "row" },
           padding: "3em 0",
         }}
       >
-        <Box sx={{ display: "flex", flexDirection: "row" }}>
+        <Box
+          sx={{ display: "flex", flexDirection: "row", marginBottom: "1.5em" }}
+        >
           <Box>
             <Image
               src="/RQxTq6Y.png"
@@ -28,7 +31,12 @@ const Footer = () => {
               marginLeft: "1em",
             }}
           >
-            <Box sx={{ display: "flex", flexDirection: "row" }}>
+            <Box
+              sx={{
+                display: "flex",
+                flexDirection: "row",
+              }}
+            >
               <Typography
                 sx={{ fontSize: "1.5rem", color: "#0033FF", fontWeight: "700" }}
               >
@@ -50,7 +58,15 @@ const Footer = () => {
             </Box>
           </Box>
         </Box>
-        <Box>
+        <Box
+          sx={{
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: { xs: "center" },
+            alignItems: { xs: "center", md: "flex-start" },
+            marginBottom: "1em",
+          }}
+        >
           <Typography sx={{ fontWeight: "700", fontSize: "1.4rem" }}>
             Services
           </Typography>
@@ -62,7 +78,15 @@ const Footer = () => {
             }}
           ></Divider>
 
-          <Box sx={{ display: "flex", flexDirection: "column" }}>
+          <Box
+            sx={{
+              display: "flex",
+              flexDirection: "column",
+              justifyContent: { xs: "center" },
+              alignItems: { xs: "center", md: "flex-start" },
+              marginBottom: "1em",
+            }}
+          >
             <Link
               sx={{ marginBottom: "1em", color: "#000000", fontSize: "1rem" }}
               underline="none"
@@ -93,7 +117,15 @@ const Footer = () => {
             </Link>
           </Box>
         </Box>
-        <Box>
+        <Box
+          sx={{
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: { xs: "center" },
+            alignItems: { xs: "center", md: "flex-start" },
+            marginBottom: "1em",
+          }}
+        >
           <Typography sx={{ fontWeight: "700", fontSize: "1.4rem" }}>
             Get In Touch
           </Typography>
@@ -110,7 +142,7 @@ const Footer = () => {
                 sx={{
                   marginBottom: "1em",
                   color: "#000000",
-                  fontSize: "1.4rem",
+                  fontSize: { xs: "1.2em", md: "1.4rem" },
                   fontWeight: "700",
                 }}
               >
@@ -130,16 +162,32 @@ const Footer = () => {
         sx={{
           display: "flex",
           flexDirection: { xs: "column", md: "row" },
+          justifyContent: { xs: "center", md: "flex-start" },
+          alignItems: "center",
           padding: { xs: "1em", md: "1em 8em" },
         }}
       >
-        <Typography sx={{ color: "#000000", fontWeight: "700" }}>
+        <Typography
+          sx={{
+            color: "#000000",
+            fontWeight: "700",
+            fontSize: { xs: "0.75rem", md: "1rem" },
+          }}
+        >
           © Copyright 2023&nbsp;
         </Typography>{" "}
-        <Typography sx={{ color: "#0033FF", fontWeight: "700" }}>
+        <Typography
+          sx={{
+            color: "#0033FF",
+            fontWeight: "700",
+            fontSize: { xs: "0.75rem", md: "1rem" },
+          }}
+        >
           Sai Consultancy.&nbsp;
         </Typography>
-        <Typography>All Rights reserved by Hyge</Typography>
+        <Typography sx={{ fontSize: { xs: "0.75rem", md: "1rem" } }}>
+          All Rights reserved by Hyge
+        </Typography>
       </Box>
     </Box>
   );
