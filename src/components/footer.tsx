@@ -75,6 +75,7 @@ const Footer = () => {
               width: "2em",
               marginBottom: "1em",
               border: "0.1em solid #0033FF",
+              display: "flex",
             }}
           ></Divider>
 

@@ -16,6 +16,7 @@ const RightArrow = styled(ArrowUpRight)`
 const ContactUs = () => {
   return (
     <Box
+      id="contact"
       sx={{
         background: "url(/contact-bg.png)",
         display: "flex",

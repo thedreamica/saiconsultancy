@@ -37,7 +37,7 @@ export const servicesData = [
   {
     id: 6,
     imageId: "/HI6eO1b.png",
-    title: "HR Consulting",
+    title: "Human Resources Consulting",
     description:
       "Assistance for connecting qualified candidates with top companies",
   },

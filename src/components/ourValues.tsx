@@ -73,7 +73,7 @@ const OurValues = () => {
           <Image
             src="/goBhDIq.png"
             alt="valuesImg-desktop"
-            width={360}
+            width={415}
             height={360}
           />
         </Box>

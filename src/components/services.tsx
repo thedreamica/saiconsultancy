@@ -5,6 +5,7 @@ import Image from "next/image";
 const Services = () => {
   return (
     <Box
+      id="services"
       sx={{
         width: { xs: "100%", md: "70%" },
         margin: "auto",
@@ -15,14 +16,14 @@ const Services = () => {
         alignItems: "center",
       }}
     >
-      <Box sx={{ marginLeft: { xs: "0.75em", md: "none" } }}>
+      <Box sx={{ margin: { xs: "0 0.75em", md: "none" } }}>
         <Typography sx={{ fontSize: "0.9rem", marginBottom: "0.75em" }}>
           Our Services
         </Typography>
         <Typography
           sx={{
             color: "#000000",
-            fontSize: { xs: "1.35rem", md: "2.25rem" },
+            fontSize: { xs: "1.5rem", md: "2.25rem" },
             fontWeight: "700",
             lineHeight: "1.25em",
             width: { xs: "100%", md: "60%" },
@@ -54,7 +55,7 @@ const Services = () => {
             key={person.id}
             sx={{
               display: "flex",
-              width: { xs: "340px", md: "305px" },
+              width: { xs: "390px", md: "305px" },
               height: { xs: "105px", md: "150px" },
               padding: "20px 10px",
               marginBottom: { xs: "0", md: "2em" },

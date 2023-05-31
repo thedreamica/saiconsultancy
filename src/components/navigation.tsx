@@ -1,17 +1,13 @@
 import * as React from "react";
-import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
-import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
-import Container from "@mui/material/Container";
 import Button from "@mui/material/Button";
 import MenuItem from "@mui/material/MenuItem";
 import Image from "next/image";
 import { Menu } from "@styled-icons/boxicons-regular/Menu";
 import { CloseOutline } from "@styled-icons/evaicons-outline/CloseOutline";
 import styled from "styled-components";
-import { useEffect, useState } from "react";
-import Link from "next/link";
+import { useState } from "react";
 
 const pages = ["Home", "Services", "Approach", "Contact Us"];
 
@@ -89,7 +85,7 @@ const NavigationBar = () => {
         </Box>
         <Box sx={{ display: { xs: "none", md: "flex" } }}>
           {pages.map((page, index) => (
-            <MenuItem href="/" key={page}>
+            <MenuItem href="#contact" key={page}>
               <Typography
                 sx={{
                   color: "black",
@@ -138,7 +134,6 @@ const NavigationBar = () => {
         <Box
           sx={{
             display: { xs: "flex", md: " none" },
-
             alignItems: "center",
           }}
         >

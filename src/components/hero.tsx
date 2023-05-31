@@ -19,7 +19,7 @@ const RightArrow = styled(ArrowUpRight)`
 
 const HeroSection = () => {
   return (
-    <Box>
+    <Box id="home">
       <NavigationBar />
       <Carousel
         navButtonsProps={{
@@ -77,7 +77,7 @@ const HeroSection = () => {
                 >
                   <Image
                     src={image.imageId}
-                    width={375}
+                    width={425}
                     height={445}
                     alt="image"
                   ></Image>
@@ -95,7 +95,7 @@ const HeroSection = () => {
                   <Box>
                     <Typography
                       sx={{
-                        fontSize: "1.75em",
+                        fontSize: "2rem",
                         fontWeight: "700",
                         color: "#FFFFFF",
                       }}
