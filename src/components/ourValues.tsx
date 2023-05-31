@@ -36,7 +36,12 @@ const OurValues = () => {
           }}
         ></Divider>
       </Box>
-      <Box sx={{ display: "flex", flexDirection: { xs: "column", md: "row" } }}>
+      <Box
+        sx={{
+          display: "flex",
+          flexDirection: { xs: "column", md: "row" },
+        }}
+      >
         <Box
           sx={{
             width: "100%",
@@ -56,16 +61,18 @@ const OurValues = () => {
         <Box
           sx={{
             width: "100%",
+            margin: "auto",
             display: {
               xs: "flex",
               md: "none",
             },
             justifyContent: "center",
+            alignItems: "center",
           }}
         >
           <Image
             src="/goBhDIq.png"
-            alt="valuesImg-mobile"
+            alt="valuesImg-desktop"
             width={360}
             height={360}
           />

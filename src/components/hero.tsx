@@ -20,7 +20,6 @@ const RightArrow = styled(ArrowUpRight)`
 const HeroSection = () => {
   return (
     <Box>
-      <Typography>Hello Guys</Typography>
       <NavigationBar />
       <Carousel
         navButtonsProps={{

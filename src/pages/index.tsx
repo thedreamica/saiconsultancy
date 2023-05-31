@@ -8,7 +8,6 @@ import ContactUs from "@/components/contact";
 import Footer from "@/components/footer";
 import HeroSection from "@/components/hero";
 // import OurApproach from "@/components/ourApproach";
-// import HeroSection from "@/components/heroSection";
 
 const inter = Inter({ subsets: ["latin"] });
 
