@@ -19,8 +19,8 @@ const Testimonials = () => {
       <Button
         sx={{
           position: { xs: "absolute", md: "relative" },
-          left: { xs: "85px", md: "250px" },
-          top: { xs: "3660px", md: "0px" },
+          left: { xs: "120px", md: "250px" },
+          top: { xs: "3520px", md: "0px" },
           cursor: "auto",
         }}
       >
@@ -79,8 +79,8 @@ const Testimonials = () => {
       <Button
         sx={{
           position: { xs: "absolute", md: "relative" },
-          right: { xs: "85px", md: "250px" },
-          top: { xs: "3660px", md: "0px" },
+          right: { xs: "120px", md: "250px" },
+          top: { xs: "3520px", md: "0px" },
           cursor: "auto",
         }}
       >
