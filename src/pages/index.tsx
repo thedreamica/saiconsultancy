@@ -3,7 +3,7 @@ import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 import OurValues from "@/components/ourValues";
 import Services from "@/components/services";
-import Testimonials from "@/components/testimonials";
+import Testimonials from "@/components/testimonials.jsx";
 import ContactUs from "@/components/contact";
 import Footer from "@/components/footer";
 import HeroSection from "@/components/hero";

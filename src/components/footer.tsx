@@ -172,7 +172,7 @@ const Footer = () => {
           sx={{
             color: "#000000",
             fontWeight: "700",
-            fontSize: { xs: "0.75rem", md: "1rem" },
+            fontSize: { xs: "0.6rem", md: "1rem" },
           }}
         >
           © Copyright 2023&nbsp;
@@ -181,12 +181,12 @@ const Footer = () => {
           sx={{
             color: "#0033FF",
             fontWeight: "700",
-            fontSize: { xs: "0.75rem", md: "1rem" },
+            fontSize: { xs: "0.70rem", md: "1rem" },
           }}
         >
           Sai Consultancy.&nbsp;
         </Typography>
-        <Typography sx={{ fontSize: { xs: "0.75rem", md: "1rem" } }}>
+        <Typography sx={{ fontSize: { xs: "0.6rem", md: "1rem" } }}>
           All Rights reserved by Hyge Syndicate.
         </Typography>
       </Box>
