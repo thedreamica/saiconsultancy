@@ -22,7 +22,7 @@ export default function Home() {
           name="keywords"
           content="sri sai consultancy, sai consultancy, saiconsultancy"
         />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/RQxTq6Y.png" />
       </Head>
       <HeroSection />
       <OurValues />
