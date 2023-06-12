@@ -162,7 +162,7 @@ const Footer = () => {
       <Box
         sx={{
           display: "flex",
-          flexDirection: { xs: "column", sm: "row", md: "row" },
+          flexDirection: { xs: "row", md: "row" },
           justifyContent: { xs: "center", md: "flex-start" },
           alignItems: "center",
           padding: { xs: "1em", md: "1em 8em" },
@@ -187,7 +187,7 @@ const Footer = () => {
           Sai Consultancy.&nbsp;
         </Typography>
         <Typography sx={{ fontSize: { xs: "0.75rem", md: "1rem" } }}>
-          All Rights reserved by Hyge
+          All Rights reserved by Hyge Syndicate.
         </Typography>
       </Box>
     </Box>
